@@ -8,8 +8,6 @@ table = client.Table('Test')
 
 def lambda_handler(event, context):
     print("lambda_handler_start")
-    visitor_num = 0
-    print("visitor_number")
     incr = 1
     response = table.update_item(
         Key={
