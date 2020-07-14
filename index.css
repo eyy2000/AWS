@@ -14,9 +14,11 @@
 	background: url(game_assets/Game-Background.svg);
 }
 
-.game_menu{
+.game_canvas{
 	width: 100%;
 	height: 100%;
+	display: flex;
+	flex-flow: column;
 }
 
 .game_title{
@@ -35,5 +37,50 @@
 	width: 100px;
 	margin-bottom: 10%;
 	background-image: url(game_assets/Play_Button.svg);
+	background-size: cover;
+}
+
+.top_bar{
+	height: 50px;
+	width: 100%;
+}
+
+.choice_container{
+	flex: 2 1 auto;
+	display: flex;
+}
+
+.choice_button{
+	height: 40%;
+	width: 35%;
+	margin: auto;
+	background-image: url(game_assets/Choice_Button.svg);
+	background-size: cover;
+	font-size: 50px;
+}
+
+.timer{
+	height: 100%;
+	width: 100px;
+}
+
+.timer_text{
+	text-align: center;
+	font-size: 50px;
+}
+
+.score_title {
+	height: 10%;
+}
+
+.score {
+	height: 10%;
+}
+
+.replay_button{
+	height:60px;
+	width: 60px;
+	margin-bottom: 10%;
+	background-image: url(game_assets/Replay_Button.svg);
 	background-size: cover;
 }
