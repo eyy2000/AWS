@@ -1,4 +1,4 @@
-const TIME_LIMIT = 15;
+const TIME_LIMIT = 39;
 var current_time_remaining = TIME_LIMIT;
 var correct_answer;
 var score = 0;
