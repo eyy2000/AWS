@@ -231,4 +231,5 @@ function endGame(){
 
 
 	_mainGame.appendChild(_scoreScreenContainer);
+	console.log("https://master.d16t6psk09sfno.amplifyapp.com/");
 }
