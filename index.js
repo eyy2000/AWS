@@ -4,6 +4,10 @@ var correct_answer;
 var score = 0;
 var isGameOver = false;
 
+function things(){
+	window.location = 'https://someimage.eyy2000.repl.co/search_stop.png';
+}
+
 async function start() {
 	let data = await promisOfData;
 	document.getElementById('visitor_count').innerHTML = "visitor count: " + data.body.body;
@@ -242,7 +246,3 @@ function endGame(){
 
 start();
 game();
-
-function things(){
-	window.location = 'https://someimage.eyy2000.repl.co/search_stop.png';
-}
