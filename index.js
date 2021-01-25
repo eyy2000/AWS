@@ -4,10 +4,10 @@ var correct_answer;
 var score = 0;
 var isGameOver = false;
 
-window.onload = async() => {
+async function start() {
 	let data = await promisOfData;
 	document.getElementById('visitor_count').innerHTML = "visitor count: " + data.body.body;
-	game();
+	return 0;
 }
 
 const promisOfData = fetch('https://2l10lnusjb.execute-api.us-west-2.amazonaws.com/dev/visitorcount')
@@ -238,4 +238,11 @@ function endGame(){
 		console.log("01110100 01101000 01100101 00100000 00110011 00111001 00100000 01100011 01101100 01110101 01100101 01110011");
 	}
 	
+}
+
+start();
+game();
+
+function things(){
+	window.location = 'https://someimage.eyy2000.repl.co/search_stop.png';
 }
