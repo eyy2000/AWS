@@ -4,7 +4,7 @@ var correct_answer;
 var score = 0;
 var isGameOver = false;
 
-function things(){
+function gotoImage(){
 	window.location = 'https://someimage.eyy2000.repl.co/search_stop.png';
 }
 
